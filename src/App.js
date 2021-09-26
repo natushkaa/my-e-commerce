@@ -1,17 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import NavBar from "./components/NavBar";
+
+
+
 
 function App() {
   return (
     <div className="App">
-     <h1>COLLIE CANDLE</h1>
+      <NavBar>  </NavBar>
+    
+     <h1>VELAS AROMATICAS</h1>
 
-     <p>Hermoso dia de hoy </p>
+     <p> </p>
       <p>
-        Velas aromaticas
+        
       </p>
     </div>
   );
 }
+
+
+
+
+
 
 export default App;
