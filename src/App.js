@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <NavBar>  </NavBar>
     
-     <h1>VELAS AROMATICAS..</h1>
+     <h1>VELAS AROMATICAS..,</h1>
 
      <p> </p>
       <p>
