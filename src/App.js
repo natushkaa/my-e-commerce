@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import NavBar from "./components/NavBar";
 
@@ -8,21 +8,16 @@ import NavBar from "./components/NavBar";
 function App() {
   return (
     <div className="App">
-      <NavBar>  </NavBar>
-    
-     <h1>VELAS AROMATICAS..,</h1>
+           
+        <NavBar></NavBar>
 
-     <p> </p>
-      <p>
-        
-      </p>
+
+        <h1>VELAS AROMÁTICAS</h1>
+       
+
+      
     </div>
   );
 }
-
-
-
-
-
 
 export default App;
