@@ -1,10 +1,10 @@
 .Header{
-
-     display: flex;
-     background-color: blueviolet;
-     width: 100%;
-     justify-content: center;
-    border: 2px solid black;
+    color: cadetblue;
+    background-color: chartreuse;
+    display: table-column;
+    width: 100%;
+    justify-content: center;
+    
 
 
 }

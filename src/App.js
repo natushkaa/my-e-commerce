@@ -1,25 +1,29 @@
 
+import React from 'react';
 import './App.css';
-import NavBar from "./components/NavBar";
+
 
 //Components
 import Header from './components/Header/Header.js'
+import NavBar from "./components/NavBar";
 
 
+class App extends React.Component() {
+  render(){
+    return (
 
-function App() {
-  return (
-    <div className="App">
-        <Header/>
+      <div className="App">
+        <Header title='COLLIE CANDLE' subtitle="velas aromáticas exóticas"/>
         <NavBar></NavBar>
-        
+                 
+            
+      </div>
 
-        <h1>VELAS AROMÁTICAS.</h1>
-       
 
-      
-    </div>
-  );
+    )
+
+  }
+  
 }
 
 export default App;
