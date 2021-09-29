@@ -1,7 +1,8 @@
 nav {
     padding: 1em;
     font-family:  Verdana, Geneva, sans-serif;
-    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   nav ul {
     list-style: none;
@@ -12,7 +13,7 @@ nav {
   nav li a {
     color: white;
     display: block;
-    
+    text-decoration: none;
     padding: .5em 1em;
   }
  
