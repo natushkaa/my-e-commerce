@@ -1,16 +1,15 @@
 
 import "./NavBar.css"
 
-
 const NavBar = () => {
 
     return(
         <nav className="NavBar">
             <ul>
-                <li> Inicio</li>
-                <li> Productos </li>
-                <li> Nosotros</li>
-                <li>Contáctanos</li>
+                <li> <a href="">Inicio</a></li>
+                <li><a href=""> Productos </a></li>
+                <li><a href=""> Nosotros</a></li>
+                <li><a href="">Contáctanos</a></li>
             </ul>
         </nav>
     )
