@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card, Icon, Image } from 'semantic-ui-react'
 
-const Item = () => (
+const Item = ({data}) => (
   <Card>
     <Image src='{data.avatar_url}' wrapped ui={false} />
     <Card.Content>
