@@ -1,4 +1,5 @@
 import React, { useState, useEffect} from 'react';
+import 'semantic-ui-css/semantic.min.css'
 import './App.css';
 
 
@@ -9,6 +10,7 @@ import ItemListContainer from './components/ItemListContainer/ItemListContainer.
 import CartWidget from './components/CartWidget/CartWidget.js';
 
 import {name, foo} from "./components/Header/Header.js";
+
 
 const App = ()  => {
     const [userName, setUserName] = useState("aroma");
